@@ -169,7 +169,6 @@ nav .nav_right button a {
 /* ||About Us Css Start|| */
 #about .about_container_one {
   display: flex;
-  margin: auto;
   background: url(../Images/asset\ 19.png);
   background-repeat: no-repeat;
   background-position: left;
@@ -268,3 +267,60 @@ nav .nav_right button a {
   color: var(--prime-color);
 }
 /* ||Agent Css End|| */
+#contact {
+  margin: 100px 0;
+}
+#contact .container {
+  display: flex;
+}
+#contact .container .contact_left {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+#contact .container .contact_left .contact_us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#contact .container .contact_left .contact_us .con_top a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: var(--prime-color);
+  display: flex;
+  align-items: center;
+}
+#contact .container .contact_left .contact_us .con_top a img {
+  width: 25px;
+  padding-right: 15px;
+}
+#contact .container .contact_left .contact_us .con_bottom {
+  display: flex;
+  align-items: center;
+}
+#contact .container .contact_left .contact_us .con_bottom a img {
+  width: 160px;
+  padding-right: 30px;
+}
+#contact .container .contact_left .contact_us .con_bottom h6 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--prime-color);
+  width: 258px;
+}
+#contact .container .contact_left .contact_img img {
+  margin-top: 30px;
+  margin-left: -280px;
+  height: 385px;
+}
+
+#contact .container .contact_right {
+  width: 35%;
+}
+#contact .container .contact_right h1 {
+  text-align: center;
+}
