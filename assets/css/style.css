@@ -44,6 +44,7 @@ ul li {
 .container {
   max-width: 1070px;
   margin: 0 auto;
+  overflow: hidden;
 }
 button {
   border: none;
@@ -58,6 +59,9 @@ h1 {
   text-transform: uppercase;
   color: var(--focus-color);
   padding-bottom: 15px;
+}
+input:focus-visible {
+  outline: none;
 }
 /* ||Common Css End|| */
 
@@ -300,6 +304,7 @@ nav .nav_right button a {
 #contact .container .contact_left .contact_us .con_bottom {
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 #contact .container .contact_left .contact_us .con_bottom a img {
   width: 160px;
@@ -323,4 +328,58 @@ nav .nav_right button a {
 }
 #contact .container .contact_right h1 {
   text-align: center;
+}
+#contact .container .contact_right form .form_item {
+  width: 100%;
+}
+#contact .container .contact_right form label {
+  color: var(--focus-color);
+  background-color: var(--background-color) !important;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0 10px;
+  margin-left: 10px;
+}
+#contact .container .contact_right form input {
+  display: block;
+  width: 94%;
+  background: transparent;
+  padding: 10px;
+  border: 1px solid var(--focus-color);
+  border-radius: 4px;
+  color: var(--prime-color);
+  margin-top: -7px;
+  margin-bottom: 20px;
+}
+#contact .container .contact_right form .submit input {
+  width: 100% !important;
+  border: 0px;
+  background: var(--focus-color);
+  color: var(--background-color);
+  border-radius: 4px;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+#contact .container .contact_right form .form_checkbox {
+  display: flex;
+  align-items: center;
+}
+#contact .container .contact_right form .form_checkbox input {
+  display: inline;
+  width: 30px;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: 1px solid var(--focus-color);
+}
+#contact .container .contact_right form .form_checkbox label {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
 }
