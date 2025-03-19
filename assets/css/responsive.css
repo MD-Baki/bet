@@ -201,3 +201,212 @@ nav .nav_right button a {
   }
 /* ||Contact us Css End|| */
 }
+
+@media (max-width: 579px) {
+    /* ||Common Css Start|| */
+    h1 {
+        font-size: 20px;
+        line-height: 24px;
+        padding-bottom: 15px;
+    }
+    .container {
+        padding: 0;
+        margin: 0 15px;
+    }
+    .hidden_img{
+        display: block;
+    }
+    .show_sec{
+        display: block;
+    
+    }
+    .hidden_img img{
+        width: 100%;
+    }
+    .hidden_sec{
+        display: none !important;
+    }
+    /* ||Common Css End|| */
+    
+    /* ||Header Css Start|| */
+    nav {
+        position: fixed;
+        width: 100%;
+        justify-content: space-between;
+        background: var(--background-color);
+        padding: 15px 0;
+    }
+    nav .logo img {
+        width: 106px;
+      }
+    nav .nav_right button a {
+        padding-right: 15px;
+        border-radius: none;
+    }
+    /* ||Header Css End|| */
+    
+    /* ||Banner Css Start|| */
+    #banner .banner_container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        background: none;
+        height: 100%;
+        padding: 40px 0 10px 0;
+        text-align: center;
+    }
+    #banner .banner_container .banner_text {
+        padding-right: 0;
+        width: 100%;
+    }
+    #banner .banner_container .banner_text p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    #banner .banner_container .banner_text .banner_button {
+        margin-left: 0;
+    }
+    /* ||Banner Css End|| */
+    
+    /* ||Achievement Css Start|| */
+    #achievement .all_achiev_items {
+        grid-template-columns: 1fr;
+        gap: 33px;
+    }
+    #achievement .all_achiev_items .achiev_item h4 {
+        width: 200px;
+    }
+    /* ||Achievement Css End|| */
+    
+    /* ||About Us Css Start|| */
+    #about{
+        text-align: center;
+    }
+    #about h1{
+        font-size: 28px;
+        padding-top: 10px;
+    }
+    #about .about_container_one {
+        background: none;
+        height: 100%;
+    }
+    #about .about_container_one .about_text {
+        padding-left: 0;
+        width: 100%;
+    }
+    #about .about_container_one .about_text p,
+    #about .about_container_two .about_text p {
+        text-align: left;
+        margin: 0 0 8px;
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 400;
+    }
+    #about .about_container_one .about_text p span {
+        padding: 10px 0 !important;
+    }
+    #about .about_container_one .about_text .about_button,
+    #about .about_container_two .about_text .about_button {
+        margin: 30px 0 20px 0 !important;
+    }
+    /* Part Two */
+    #about .about_container_two {
+        background: none !important;
+        height: 100%;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    #about .about_container_two .about_text {
+        padding-right: 0;
+        width: 100%;
+    }
+    #about .about_container_two .about_text .about_point li {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: left;
+    }
+    #about .about_container_two .about_text .about_point li span {
+        font-size: 20px;
+    }
+    /* ||About Us Css End|| */
+    
+    /* ||Agent Css Start|| */
+    #agent .container {
+        background: none;
+        flex-direction: column;
+        text-align: center;
+    }
+    #agent .agent_containt {
+        padding-left: 0;
+    }
+    #agent .agent_containt h1 {
+        padding: 30px 0 0 0;
+        font-size: 28px;
+    }
+    #agent .agent_containt .items {
+        display: flex;
+        padding-top: 18px;
+        text-align: left;
+        width: 100%;
+    }
+    #agent .agent_containt .items h5 {
+        padding-right: 0;
+        display: none;
+    }
+    #agent .agent_containt .items h5,
+    #agent .agent_containt .items h6,
+    #agent .agent_containt .items p {
+        font-weight: 400;
+    }
+    /* ||Agent Css End|| */
+    
+    /* ||Contact us Css Start|| */
+    #contact {
+        margin: 50px 0;
+    }
+    #contact h1{
+        font-size: 28px;
+        width: 90%;
+    }
+    #contact .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    #contact .container .contact_left {
+        width: 100%;
+        flex-direction: column;
+        justify-content:center
+    }
+    #contact .container .contact_left .contact_img img {
+        margin-top: 30px;
+        margin-left: 0;
+        height: 100%;
+        width: 100%;
+    }
+    #contact .container .contact_right {
+        width: 100%;
+    }
+    #contact .container .contact_right h1 {
+        text-align: center;
+    }
+    #contact .container .contact_right form{
+        width: 100%;
+        margin: auto;
+        text-align: left;
+    }
+    #contact .container .contact_right form .form_item {
+        width: 90%;
+    }
+    #contact .container .contact_right form input {
+        width: 94%;
+      }
+    
+    #contact .container .contact_right .con_bottom a img {
+        width: 106px;
+        padding: 25px 0 15px 0;
+      }
+    /* ||Contact us Css End|| */
+    }
