@@ -10,9 +10,16 @@
       type="image/x-icon"
     />
 
+    <!--fontawesome cdn-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
     <!-- Style File -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Responsive CSS File -->
+     <link rel="stylesheet" href="assets/css/responsive.css">
 
     <title>Bet</title>
 
@@ -25,7 +32,7 @@
         <div class="logo">
           <a href="index.html"><img src="assets/Images/logo.png" alt="" /></a>
         </div>
-        <div class="menu">
+        <div class="menu hidden_sec">
           <ul>
             <li><a href="#about">About us</a></li>
             <li><a href="#agent">Collaboration</a></li>
@@ -33,7 +40,8 @@
           </ul>
         </div>
         <div class="nav_right">
-          <button><a href="">Become an agent</a></button>
+          <button class="hidden_sec"><a href="">Become an agent</a></button>
+          <button class="show_sec"><a href=""><i class="fa-solid fa-bars"></i></a></button>
         </div>
       </nav>
     </header>
@@ -42,6 +50,9 @@
     <!-- ||Banner Section Start|| -->
     <section id="banner">
       <div class="container banner_container">
+        <div class="hidden_img">
+          <img src="assets/Images/asset 13.png" alt="">
+        </div>
         <div class="banner_text">
           <div>
             <h1>Make money with MelBet TeamCash!</h1>
@@ -94,6 +105,9 @@
       <div class="container">
         <div class="about_container_one">
           <div class="about_text">
+            <div class="hidden_img">
+              <img src="assets/Images/asset 19.png" alt="">
+            </div>
             <div>
               <h1>What is a Melbet agent?</h1>
               <p>
@@ -119,6 +133,9 @@
         </div>
 
         <div class="about_container_two">
+          <div class="hidden_img">
+            <img src="assets/Images/asset 20.png" alt="">
+          </div>
           <div class="about_text">
             <div>
               <h1>Mobile EPOS</h1>
@@ -151,6 +168,9 @@
     <!-- ||Agent Section Start|| -->
     <section id="agent">
       <div class="container">
+        <div class="hidden_img">
+          <img src="assets/Images/asset 21.png" alt="">
+        </div>
         <div class="agent_containt">
           <h1>How can I become a Melbet agent?</h1>
           <div class="items">
@@ -236,7 +256,7 @@
                 support@melbetagents.com</a
               >
             </div>
-            <div class="con_bottom">
+            <div class="con_bottom hidden_sec">
               <a href=""><img src="assets/Images/logo.png" alt="" /></a>
               <div>
                 <h6>Copyright © 2012-2025 «MelBet».</h6>
@@ -279,6 +299,14 @@
               <input type="submit" value="Send" />
             </div>
           </form>
+
+          <div class="con_bottom">
+            <a href=""><img src="assets/Images/logo.png" alt="" /></a>
+            <div>
+              <h6>Copyright © 2012-2025 «MelBet».</h6>
+              <h6>All rights are reserved and protected by law.</h6>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
