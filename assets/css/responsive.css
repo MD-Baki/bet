@@ -26,6 +26,8 @@ h1 {
 /* ||Header Css Start|| */
 nav {
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     justify-content: space-between;
     background: var(--background-color);
@@ -231,10 +233,12 @@ nav .nav_right button a {
     /* ||Header Css Start|| */
     nav {
         position: fixed !important;
+        top: 0;
+        left: 0;
         width: 100%;
         justify-content: space-between;
         background: var(--background-color);
-        padding: 15px 0;
+        padding: 15px 10px;
     }
     nav .logo img {
         width: 106px;
